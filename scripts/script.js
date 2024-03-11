@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (todo.category == "business") {
         todoItem.innerHTML = `<p class="mt-2
-                 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-300 max-w-xs [#527CAC]">${todo.content}</p>
+                 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-400 max-w-xs [#527CAC]">${todo.content}</p>
                 <button data-index="${index}" class="mt-2 px-1.5 h-8 rounded-md bg-red-500 hover:opacity-75 sm:hover:opacity-100 sm:hover:scale-105 duration-200 shadow-xl text-white delete-button">Delete</button>`;
         todoList.appendChild(todoItem);
       } else {
